@@ -14,9 +14,12 @@ import {
 import "../../CSS/Comman.css";
 
 function Android() {
+  React.useEffect(() => {
+    document.title = "WayForDev | Android";
+  }, []);
   return (
     <div>
-      <div className="comman_Header">
+      <div className="comman_Header BackToTop">
         <NavLink className="comman_BackLink" to="/allWays">
           Back
         </NavLink>

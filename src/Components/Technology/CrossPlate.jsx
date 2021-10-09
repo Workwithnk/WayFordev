@@ -3,15 +3,23 @@ import { NavLink } from "react-router-dom";
 
 import { flutterData, pythonData, reactNativeData } from "../../Data/MobileApp";
 import { mySqlData, postrageDBData, sqliteData } from "../../Data/webDevData";
-import { SiMysql, SiSqlite } from "react-icons/si";
 import { GiElephant } from "react-icons/gi";
-import { SiFlutter, SiNativescript, SiPython } from "react-icons/si";
+import {
+  SiFlutter,
+  SiNativescript,
+  SiPython,
+  SiMysql,
+  SiSqlite,
+} from "react-icons/si";
 import "../../CSS/Comman.css";
 
 function CrossPlate() {
+  React.useEffect(() => {
+    document.title = "WayForDev | Cross Plateform";
+  }, []);
   return (
     <div>
-      <div className="comman_Header">
+      <div className="comman_Header BackToTop">
         <NavLink className="comman_BackLink" to="/allWays">
           Back
         </NavLink>

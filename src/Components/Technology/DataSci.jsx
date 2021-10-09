@@ -28,9 +28,12 @@ import { mySqlData } from "../../Data/webDevData";
 import "../../CSS/Comman.css";
 
 function DataSci() {
+  React.useEffect(() => {
+    document.title = "WayForDev | Data Scientist";
+  }, []);
   return (
     <div>
-      <div className="comman_Header">
+      <div className="comman_Header BackToTop">
         <NavLink className="comman_BackLink" to="/allWays">
           Back
         </NavLink>

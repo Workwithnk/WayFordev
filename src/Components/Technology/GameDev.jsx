@@ -12,7 +12,6 @@ import {
 import { cssData, htmlData, jsData } from "../../Data/webDevData";
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaCss3Alt } from "react-icons/fa";
-import "../../CSS/Comman.css";
 import {
   cplusplusData,
   csarpData,
@@ -21,11 +20,15 @@ import {
   unrealengData,
 } from "../../Data/GameDevData";
 import { pythonData } from "../../Data/MobileApp";
+import "../../CSS/Comman.css";
 
 function GameDev() {
+  React.useEffect(() => {
+    document.title = "WayForDev | Game Developer";
+  }, []);
   return (
     <div>
-      <div className="comman_Header">
+      <div className="comman_Header BackToTop">
         <NavLink className="comman_BackLink" to="/allWays">
           Back
         </NavLink>

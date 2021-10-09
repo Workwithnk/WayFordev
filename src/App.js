@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import index from "./Components";
 import AllWays from "./Components/AllWays";
 import Footer from "./Components/Footer";
 
@@ -20,15 +19,18 @@ import CloudEngineer from "./Components/Technology/CloudEngineer";
 import BlockChain from "./Components/Technology/BlockChain";
 import SecurityDev from "./Components/Technology/SecurityDev";
 import MLAi from "./Components/Technology/MLAi";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
+import { Link } from "react-scroll";
+import Index from "./Components/Index";
 import "./CSS/App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App BackToTop">
       <BrowserRouter>
         <NavBar />
         <Switch>
-          <Route exact path="/" component={index} />
+          <Route exact path="/" component={Index} />
           <Route path="/allWays" component={AllWays} />
           <Route path="/frontend" component={FrontEnd} />
           <Route path="/backend" component={BackEnd} />
@@ -46,6 +48,16 @@ function App() {
           <Route path="/blockchain" component={BlockChain} />
           <Route path="/mlai" component={MLAi} />
         </Switch>
+        <div className="upArrowContainer">
+          <Link
+            style={{ cursor: "pointer" }}
+            to="BackToTop"
+            smooth={true}
+            duration={1000}
+          >
+            <BsFillArrowUpCircleFill className="upArrowContainerIcon" />
+          </Link>
+        </div>
         <Footer />
       </BrowserRouter>
     </div>

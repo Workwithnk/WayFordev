@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import web from "../images/Web.gif";
 import mobile from "../images/mobile.gif";
 import data from "../images/data.png";
@@ -6,7 +7,6 @@ import game from "../images/Game.png";
 import devops from "../images/DevOps.png";
 import cloud from "../images/cloudEngineer.png";
 import "../CSS/WaysSection.css";
-import { NavLink } from "react-router-dom";
 
 function WaysSection() {
   return (
@@ -56,7 +56,7 @@ function WaysSection() {
         </div>
       </div>
       <div className="button_Ways">
-        <NavLink to="/allWays">more...</NavLink>
+        <NavLink to="/allWays">More Ways</NavLink>
       </div>
     </div>
   );

@@ -11,6 +11,11 @@
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
+.logo_NB {
+  width: 43px;
+  margin-right: 10px;
+}
+
 .first_NB {
   display: flex;
   align-items: center;
@@ -35,9 +40,9 @@
   font-size: 25px;
   font-family: system-ui;
   letter-spacing: 1px;
-  padding: 9px 4px;
+  padding: 12px 4px;
 }
 .NavBar ul li a:hover {
-  background-color: white;
-  color: #2f3640;
+  background-color: #f5ae14;
+  color: black;
 }

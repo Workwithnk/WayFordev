@@ -1,0 +1,11 @@
+.upArrowContainer {
+  position: fixed;
+  bottom: 4px;
+  right: 10px;
+}
+
+.upArrowContainerIcon {
+  font-size: 35px;
+  color: #e74c3c;
+  cursor: pointer;
+}

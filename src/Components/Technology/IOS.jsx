@@ -13,9 +13,12 @@ import { GiElephant } from "react-icons/gi";
 import "../../CSS/Comman.css";
 
 function IOS() {
+  React.useEffect(() => {
+    document.title = "WayForDev | IOS";
+  }, []);
   return (
     <div>
-      <div className="comman_Header">
+      <div className="comman_Header BackToTop">
         <NavLink className="comman_BackLink" to="/allWays">
           Back
         </NavLink>

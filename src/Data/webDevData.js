@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import frontEnd from "../images/frontEnd.png";
 import backend from "../images/backend.png";
 import fullStack from "../images/fullStack.png";
@@ -156,6 +155,36 @@ export const jsData = [
       Mozila: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       Tutorialspoint: "https://www.tutorialspoint.com/javascript/index.htm",
       Javatpoint: "https://www.javatpoint.com/javascript-tutorial",
+    },
+  },
+];
+
+export const rubyData = [
+  {
+    id: "rubyData1",
+    name: "Ruby",
+    fullform: "Ruby",
+    links: {
+      Tutorialspoint: "https://www.tutorialspoint.com/ruby/index.htm",
+      Javatpoint: "https://www.javatpoint.com/ruby-tutorial",
+      w3resource: "https://www.w3resource.com/ruby/",
+      Geeksforgeeks: "https://www.geeksforgeeks.org/ruby-programming-language/",
+      Guru99: "https://www.guru99.com/ruby-on-rails-tutorial.html",
+    },
+  },
+];
+
+export const phpData = [
+  {
+    id: "phpData1",
+    name: "PHP",
+    fullform: "PHP",
+    links: {
+      w3Schools: "https://www.w3schools.com/php/",
+      Tutorialspoint: "https://www.tutorialspoint.com/php/index.htm",
+      Javatpoint: "https://www.javatpoint.com/php-tutorial",
+      Geeksforgeeks: "https://www.geeksforgeeks.org/php-tutorials/",
+      Guru99: "https://www.guru99.com/php-tutorials.html",
     },
   },
 ];

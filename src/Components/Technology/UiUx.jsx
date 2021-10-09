@@ -8,9 +8,12 @@ import "../../CSS/Comman.css";
 import { adobexddata, figmadata, invisionData } from "../../Data/UiUxData";
 
 function UiUx() {
+  React.useEffect(() => {
+    document.title = "WayForDev | UI/UX Developer";
+  }, []);
   return (
     <div>
-      <div className="comman_Header">
+      <div className="comman_Header BackToTop">
         <NavLink className="comman_BackLink" to="/allWays">
           Back
         </NavLink>

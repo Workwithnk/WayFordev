@@ -31,9 +31,12 @@ import {
 import "../../CSS/Comman.css";
 
 function BackEnd() {
+  React.useEffect(() => {
+    document.title = "WayForDev | Backend";
+  }, []);
   return (
     <div>
-      <div className="comman_Header">
+      <div className="comman_Header BackToTop">
         <NavLink className="comman_BackLink" to="/allWays">
           Back
         </NavLink>

@@ -4,8 +4,11 @@ import { NavLink } from "react-router-dom";
 import "../CSS/AllWays.css";
 
 function AllWays() {
+  React.useEffect(() => {
+    document.title = "WayForDev | AllWays";
+  }, []);
   return (
-    <div className="AllData">
+    <div className="AllData BackToTop">
       {AllData.map((data) => {
         return (
           <div key={data.id} className="cards_AllData">

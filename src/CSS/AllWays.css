@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: #ecf0f1;
 }
 
 .cards_AllData {
@@ -42,12 +43,12 @@
 }
 .data_Card_AllData a {
   text-decoration: none;
-  background-color: #4cd137;
+  background-color: #f5ae14;
   padding: 5px 30px;
   border-radius: 7px;
   outline: none;
   border: none;
-  color: white;
+  color: black;
   font-size: 20px;
   margin: 5px 0px;
 }

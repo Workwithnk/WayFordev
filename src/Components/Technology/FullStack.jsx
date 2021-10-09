@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import {
   angularjsData,
@@ -52,9 +52,12 @@ import { GiCherry, GiElephant } from "react-icons/gi";
 import "../../CSS/Comman.css";
 
 function FullStack() {
+  useEffect(() => {
+    document.title = "WayForDev | FullStack";
+  }, []);
   return (
     <div>
-      <div className="comman_Header">
+      <div className="comman_Header BackToTop">
         <NavLink className="comman_BackLink" to="/allWays">
           Back
         </NavLink>
@@ -293,9 +296,7 @@ function FullStack() {
                     <a href={data.links.w3Schools}>w3Schools</a>
                   </li>
                   <li>
-                    <a target="_blank" href={data.links.Tutorialspoint}>
-                      Tutorialspoint
-                    </a>
+                    <a href={data.links.Tutorialspoint}>Tutorialspoint</a>
                   </li>
                   <li>
                     <a href={data.links.Javatpoint}>Javatpoint</a>

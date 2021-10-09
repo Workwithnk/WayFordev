@@ -53,12 +53,12 @@
 }
 .data_Card_WS a {
   text-decoration: none;
-  background-color: #4cd137;
+  background-color: #f5ae14;
   padding: 5px 30px;
   border-radius: 7px;
   outline: none;
   border: none;
-  color: white;
+  color: black;
   font-size: 20px;
   margin: 5px 0px;
 }
@@ -78,12 +78,12 @@
   padding: 11px;
   width: 27%;
   border-radius: 10px;
-  background-color: #4cd137;
+  background-color: #f5ae14;
   cursor: pointer;
   font-size: 20px;
   text-decoration: none;
   font-family: "Lato";
-  color: white;
+  color: black;
   font-weight: 600;
   letter-spacing: 2px;
 }

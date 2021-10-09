@@ -1,8 +1,11 @@
 import React from "react";
 
 function BlockChain() {
+  React.useEffect(() => {
+    document.title = "WayForDev | Blockchain";
+  }, []);
   return (
-    <div>
+    <div className="BackToTop">
       <h1>BlockChain</h1>
     </div>
   );

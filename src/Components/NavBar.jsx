@@ -1,15 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
+import Logo from "../images/Logo.png";
 import "../CSS/NavBar.css";
 
 function NavBar() {
   return (
     <div className="NavBar">
       <div className="first_NB">
+        <img className="logo_NB" src={Logo} alt="Logo_Nav" />
         <Link
           style={{ cursor: "pointer" }}
-          to="home"
+          to="top"
           smooth={true}
           duration={1000}
         >

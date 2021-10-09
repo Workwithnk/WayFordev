@@ -23,9 +23,12 @@ import { SiJavascript } from "react-icons/si";
 import "../../CSS/Comman.css";
 
 function FrontEnd() {
+  React.useEffect(() => {
+    document.title = "WayForDev | Frontend";
+  }, []);
   return (
     <div>
-      <div className="comman_Header">
+      <div className="comman_Header BackToTop">
         <NavLink className="comman_BackLink" to="/allWays">
           Back
         </NavLink>
@@ -277,9 +280,7 @@ function FrontEnd() {
                     <a href={data.links.w3Schools}>w3Schools</a>
                   </li>
                   <li>
-                    <a target="_blank" href={data.links.Tutorialspoint}>
-                      Tutorialspoint
-                    </a>
+                    <a href={data.links.Tutorialspoint}>Tutorialspoint</a>
                   </li>
                   <li>
                     <a href={data.links.Javatpoint}>Javatpoint</a>
