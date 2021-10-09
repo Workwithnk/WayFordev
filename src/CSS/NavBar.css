@@ -1,0 +1,43 @@
+.NavBar {
+  background-color: #192a56;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0px;
+  padding: 5px 0px;
+  background-blend-mode: darken;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.first_NB {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: "Lato";
+}
+
+.NavBar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NavBar ul li {
+  list-style: none;
+}
+.NavBar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: system-ui;
+  letter-spacing: 1px;
+  padding: 9px 4px;
+}
+.NavBar ul li a:hover {
+  background-color: white;
+  color: #2f3640;
+}

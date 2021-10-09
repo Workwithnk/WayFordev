@@ -1,0 +1,120 @@
+.comman_Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0px;
+  border-bottom: 1px solid lightgray;
+}
+.comman_BackLink,
+.comman_NextLink {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0px 8px;
+  background-color: #273c75;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.comman_Header h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Skills_Comman_Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill_CH {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.Comman_Icon {
+  border-top-right-radius: 20px;
+  width: 260px;
+  border-top-left-radius: 20px;
+  height: 208px;
+  object-fit: contain;
+}
+
+.details_Skill_CH {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 0px;
+  border-radius: 10px;
+  background-color: #273c75;
+  color: white;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.details_Skill_CH ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+}
+.details_Skill_CH ul li {
+  margin: 4px 0px;
+  list-style: none;
+}
+.details_Skill_CH ul li a {
+  outline: none;
+
+  color: white;
+}
+
+/* stack data */
+.stack_comman {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.stackData_Comman {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+  padding: 10px;
+  background-color: #273c75;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 10px;
+  margin: 10px 15px;
+  font-family: "Montserrat";
+}
+.stackData_Comman p {
+  font-size: 19px;
+  margin: 0px 3%;
+}
+/*icon color */
+.htmlIcon {
+  color: red;
+}
+.cssIcon {
+  color: #3498db;
+}
+.vueIcon {
+  color: #16a085;
+}
+.emberIcon {
+  color: #ff5252;
+}
+.getsByIcon {
+  color: #8e44ad;
+}
+.muSqlIcon {
+  color: #e67e22;
+}

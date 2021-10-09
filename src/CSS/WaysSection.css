@@ -1,0 +1,89 @@
+.WaysSection {
+  background-color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3% 0%;
+}
+
+.cardsContainer_Ways {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image_Card_WS {
+  z-index: -1;
+  margin-bottom: -6px;
+}
+
+.cards_waySection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 17px 20px;
+}
+.cards_waySection img {
+  border-top-right-radius: 20px;
+  width: 260px;
+  border-top-left-radius: 20px;
+  height: 208px;
+  object-fit: contain;
+}
+.data_Card_WS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 0px;
+  border-radius: 10px;
+  background-color: #273c75;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.data_Card_WS h3 {
+  color: white;
+  font-size: 23px;
+  font-family: sans-serif;
+}
+.data_Card_WS a {
+  text-decoration: none;
+  background-color: #4cd137;
+  padding: 5px 30px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 5px 0px;
+}
+
+.button_Ways {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 100%;
+}
+
+.button_Ways a {
+  text-align: center;
+  outline: none;
+  border: none;
+  padding: 11px;
+  width: 27%;
+  border-radius: 10px;
+  background-color: #4cd137;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Lato";
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
