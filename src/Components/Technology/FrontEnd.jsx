@@ -43,7 +43,7 @@ function FrontEnd() {
           fontSize: "21px",
         }}
       >
-        Languages
+        Technologies
       </h1>
       <div className="Skills_Comman_Header">
         {htmlData.map((data) => {

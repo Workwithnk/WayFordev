@@ -48,7 +48,7 @@ function DataSci() {
           fontSize: "21px",
         }}
       >
-        Tools , Database and Languages
+        Tools , Database and Technologies
       </h1>
       <div className="Skills_Comman_Header">
         {rData.map((data) => {

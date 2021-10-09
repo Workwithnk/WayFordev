@@ -29,7 +29,7 @@ function CrossPlate() {
           fontSize: "21px",
         }}
       >
-        Languages
+        Technologies
       </h1>
       <div className="Skills_Comman_Header">
         {flutterData.map((data) => {

@@ -34,7 +34,7 @@ function Android() {
           fontSize: "21px",
         }}
       >
-        Languages
+        Technologies
       </h1>
       <div className="Skills_Comman_Header">
         {javaData.map((data) => {
