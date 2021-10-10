@@ -9,7 +9,6 @@ const footer = {
   padding: "10px 0px",
   fontSize: "20px",
   fontFamily: "sans-serif",
-  letterSpacing: "2px",
   fontWeight: "100",
 };
 

@@ -43,3 +43,17 @@
   text-indent: 34px;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+  .first_Home {
+    width: 100%;
+    padding: 0px;
+  }
+  .first_Home p {
+    font-size: 23px;
+    margin: 0px 10px;
+  }
+  .data_Card_WS {
+    width: 76vw;
+  }
+}

@@ -49,3 +49,10 @@
   background-color: #f5ae14;
   color: black;
 }
+
+/* media Query */
+@media only screen and (max-width: 600px) {
+  .NavBar {
+    display: none;
+  }
+}

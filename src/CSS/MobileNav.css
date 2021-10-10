@@ -1,0 +1,69 @@
+.mobileNav {
+  background-color: #192a56;
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0px;
+  padding: 5px 0px;
+  background-blend-mode: darken;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.logo_MBN {
+  width: 43px;
+  margin-right: 10px;
+}
+.closeIcons_MBN {
+  font-size: 35px;
+  margin-bottom: -4px;
+  color: #f5ae14;
+}
+.menuIcons_MBN {
+  font-size: 35px;
+  margin-bottom: -4px;
+  color: #f5ae14;
+}
+
+.first_MBN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first_MBN a {
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+}
+.togglerContainer {
+  position: absolute;
+  top: 52px;
+  right: 40px;
+  background-color: #f5ae14;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 130px;
+  height: 200px;
+  border-radius: 10%;
+}
+.togglerContainer li {
+  margin: 4px 0px;
+  list-style: none;
+}
+.togglerContainer li a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #192a56;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/* media Query */
+@media only screen and (max-width: 600px) {
+  .mobileNav {
+    display: flex;
+  }
+}

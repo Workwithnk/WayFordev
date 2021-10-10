@@ -89,3 +89,16 @@
   letter-spacing: 2px;
   box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
+
+@media only screen and (max-width: 600px) {
+  .data_Card_WS {
+    width: 80vw;
+  }
+  .cards_waySection img {
+    width: 55vw;
+    height: 31vh;
+  }
+  .button_Ways a {
+    width: 50%;
+  }
+}

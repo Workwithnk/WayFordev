@@ -160,3 +160,24 @@
 .puppetIcon {
   color: yellow;
 }
+
+/* media Query */
+@media only screen and (max-width: 600px) {
+  .comman_Header {
+    justify-content: center;
+  }
+  .comman_BackLink,
+  .comman_NextLink {
+    display: none;
+  }
+  .comman_Header h1 {
+    font-size: 8vw;
+  }
+  .stackData_Comman h1 {
+    font-size: 7vw;
+  }
+  .stackData_Comman p {
+    font-size: 3.6vw;
+    margin: 0px 0%;
+  }
+}

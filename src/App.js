@@ -22,6 +22,7 @@ import MLAi from "./Components/Technology/MLAi";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 import Index from "./Components/Index";
+import MobileNav from "./Components/MobileNav";
 import "./CSS/App.css";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
     <div className="App BackToTop">
       <BrowserRouter>
         <NavBar />
+        <MobileNav />
         <Switch>
           <Route exact path="/" component={Index} />
           <Route path="/allWays" component={AllWays} />
