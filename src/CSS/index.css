@@ -5,3 +5,27 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* medai query */
+@media only screen and (max-width: 835px) {
+  .stackData_Comman {
+    flex-direction: column;
+    width: 90%;
+    padding: 20px 0px;
+  }
+  .stackData_Comman h1 {
+    margin-bottom: 10px;
+  }
+
+  .details_Comman ul li {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .first_Home {
+    flex-direction: column;
+    width: 95%;
+  }
+  .Home {
+    flex-direction: column;
+  }
+}

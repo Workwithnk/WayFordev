@@ -9,14 +9,7 @@ function NavBar() {
     <div className="NavBar">
       <div className="first_NB">
         <img className="logo_NB" src={Logo} alt="Logo_Nav" />
-        <Link
-          style={{ cursor: "pointer" }}
-          to="top"
-          smooth={true}
-          duration={1000}
-        >
-          WayForDev
-        </Link>
+        <NavLink to="/">WayForDev</NavLink>
       </div>
       <ul>
         <li>

@@ -121,6 +121,76 @@ function CloudEngineer() {
           );
         })}
       </div>
+      <h1
+        style={{
+          color: "#34495e",
+          textDecoration: "underline",
+          margin: "16px",
+          fontFamily: "Montserrat",
+          fontSize: "21px",
+        }}
+      >
+        Tools and Technique
+      </h1>
+      <div className="details_Comman">
+        <ul>
+          <li>
+            <a href="https://aws.amazon.com/cloudwatch/">Cloud Watch</a>
+            <p>
+              Amazon CloudWatch is a monitoring and management service that
+              provides data for AWS, hybrid, and on-premises applications and
+              infrastructure resources. Amazon describes it as “a monitoring and
+              observability service built for DevOps engineers.”
+            </p>
+          </li>
+          <li>
+            <a href="https://searchcloudcomputing.techtarget.com/definition/cloud-management?utm_source=google&int=off&pre=off&utm_medium=cpc&utm_term=GAW&utm_content=sy_lp09232021GOOGOTHR_GsidsCloudComputing_VMWare_Essential_IO158077_LI2420281&utm_campaign=VMWare_EG_sCC_Intl&Offer=sy_lp09232021GOOGOTHR_GsidsCloudComputing_VMWare_Essential_IO158077_LI2420281">
+              App Dynamics Cloud
+            </a>
+            <p>
+              AppDynamics is an application performance management and IT
+              operations analytics company based in San Francisco.
+            </p>
+          </li>
+          <li>
+            <a href="https://www.bmc.com/it-solutions/truesight.html">
+              Trusight pluse
+            </a>
+            <p>
+              TrueSight Pulse is a SaaS solution for real-time monitoring and
+              alerting that watches streaming metrics from web-scale
+              applications and underlying cloud and on-premises infrastructure
+              to deliver extreme agility and scalability.
+            </p>
+          </li>
+
+          <li>
+            <a href="https://stackify.com/retrace/">Retrace</a>
+            <p>
+              Retrace gives developer teams visibility to critical application
+              performance and uncovers problems in your application so your team
+              can be more productive.
+            </p>
+          </li>
+          <li>
+            <a href="https://sematext.com/?t=c%3A14491337973%2Cg%3A129566704791%2Cl%3A20457%2Cm%3Ap%2Cn%3Ag%2Cd%3Ac%2Cdm%3A%2Ccr%3A543045533912%2Ck%3Asematext&utm_term=sematext&utm_campaign=S_Brand%20Protect%20%28India%29&utm_source=adwords&utm_medium=ppc&hsa_acc=7389392572&hsa_cam=11244575174&hsa_grp=129566704791&hsa_ad=543045533912&hsa_src=g&hsa_tgt=kwd-314048221358&hsa_kw=sematext&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw-4SLBhCVARIsACrhWLXMdpqvHg9haKNz87FwoWPKEtgKHUIrZ89dYg3QdldmYt7y47FnU0UaAroYEALw_wcB">
+              Sematext
+            </a>
+            <p>
+              Sematext Cloud is an all-in-one infrastructure performance and log
+              monitoring, real user, frontend, API, website, and uptime
+              monitoring SaaS.
+            </p>
+          </li>
+          <li>
+            <a href="https://www.aternity.com/">Aternity</a>
+            <p>
+              Aternity Inc. is an enterprise software company headquartered in
+              Cambridge, MA with offices around the world.
+            </p>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

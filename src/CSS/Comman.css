@@ -99,6 +99,42 @@
   font-size: 19px;
   margin: 0px 3%;
 }
+
+.details_Comman {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.details_Comman ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.details_Comman ul li {
+  margin: 10px 0px;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 90%;
+  padding: 10px;
+  background-color: #ecf0f1;
+  border: none;
+  outline: none;
+  color: black;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.details_Comman ul li a {
+  color: #e67e22;
+}
+
 /*icon color */
 .htmlIcon {
   color: red;

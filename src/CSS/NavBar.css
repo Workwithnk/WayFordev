@@ -25,7 +25,10 @@
   letter-spacing: 2px;
   font-family: "Lato";
 }
-
+.first_NB a {
+  color: white;
+  text-decoration: none;
+}
 .NavBar ul {
   display: flex;
   align-items: center;
