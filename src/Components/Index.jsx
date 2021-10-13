@@ -1,4 +1,5 @@
 import React from "react";
+import AllApiHome from "./AllApiHome";
 import Home from "./Home";
 import WaysSection from "./WaysSection";
 
@@ -10,6 +11,7 @@ function Index() {
     <div id="top BackToTop">
       <Home />
       <WaysSection />
+      <AllApiHome />
     </div>
   );
 }

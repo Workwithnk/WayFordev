@@ -1,0 +1,89 @@
+.AllApiHome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 0%;
+  background-color: #f7f5eb;
+}
+.image_AAH {
+  width: 370px;
+}
+
+.second_AAH {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 4%;
+}
+.p_second_AAh p {
+  text-indent: 20px;
+  font-size: 20px;
+  font-family: "Lato";
+  letter-spacing: 2px;
+  line-height: 23px;
+  margin: 5px 0px;
+  background-color: rgba(52, 73, 94, 0.7);
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.second_AAH a {
+  text-align: center;
+  outline: none;
+  border: none;
+  padding: 11px;
+  width: 70%;
+  border-radius: 10px;
+  background-color: #f5ae14;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Lato";
+  color: black;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+@media only screen and (max-width: 975px) {
+  .image_AAH {
+    width: 300px;
+  }
+  .second_AAH {
+    width: 40%;
+  }
+  .p_second_AAh p {
+    text-indent: 15px;
+    font-size: 18px;
+    font-family: "Lato";
+    letter-spacing: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .AllApiHome {
+    flex-direction: column;
+  }
+  .second_AAH {
+    margin-left: 0px;
+    width: 90%;
+    align-items: center;
+  }
+  .p_second_AAh {
+    align-items: flex-start;
+  }
+  .p_second_AAh p {
+    text-indent: 20px;
+    font-size: 4vw;
+    font-family: "Lato";
+    letter-spacing: 0.5vw;
+    line-height: 6vw;
+  }
+  .image_AAH {
+    width: 90%;
+  }
+}

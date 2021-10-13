@@ -24,6 +24,7 @@ import { Link } from "react-scroll";
 import Index from "./Components/Index";
 import MobileNav from "./Components/MobileNav";
 import "./CSS/App.css";
+import AllApi from "./API/AllApi";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           <Route path="/securitydev" component={SecurityDev} />
           <Route path="/blockchain" component={BlockChain} />
           <Route path="/mlai" component={MLAi} />
+          <Route path="/api" component={AllApi} />
         </Switch>
         <div className="upArrowContainer">
           <Link

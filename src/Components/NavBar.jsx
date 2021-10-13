@@ -14,6 +14,7 @@ function NavBar() {
         <li>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/allWays">Ways</NavLink>
+          <NavLink to="/api">API</NavLink>
         </li>
       </ul>
     </div>

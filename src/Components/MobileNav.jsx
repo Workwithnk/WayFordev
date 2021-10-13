@@ -39,6 +39,9 @@ function MobileNav() {
           <li>
             <NavLink to="/allWays">Ways</NavLink>
           </li>
+          <li>
+            <NavLink to="/api">API</NavLink>
+          </li>
         </ul>
       )}
     </div>
