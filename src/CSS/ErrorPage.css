@@ -1,0 +1,27 @@
+.ErrorPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+}
+.ErrorPage img {
+  width: 400px;
+}
+.ErrorPage h1 {
+  margin: 3% 0%;
+  font-size: 30px;
+  font-family: "Montserrat";
+  letter-spacing: 2px;
+}
+@media only screen and (max-width: 600px) {
+  .ErrorPage img {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .ErrorPage h1 {
+    font-size: 8vw;
+    letter-spacing: 0px;
+  }
+}

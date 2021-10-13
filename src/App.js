@@ -25,6 +25,7 @@ import Index from "./Components/Index";
 import MobileNav from "./Components/MobileNav";
 import "./CSS/App.css";
 import AllApi from "./API/AllApi";
+import ErrorPage from "./Components/ErrorPage";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
           <Route path="/blockchain" component={BlockChain} />
           <Route path="/mlai" component={MLAi} />
           <Route path="/api" component={AllApi} />
+          <Route component={ErrorPage} />
         </Switch>
         <div className="upArrowContainer">
           <Link
