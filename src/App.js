@@ -26,6 +26,10 @@ import MobileNav from "./Components/MobileNav";
 import "./CSS/App.css";
 import AllApi from "./Components/API/AllApi";
 import ErrorPage from "./Components/ErrorPage";
+import TermsAndCon from "./Components/TermsAndCon";
+import Disclaimer from "./Components/Disclaimer";
+import PrivacyPolicy from "./Components/PrivacyPolicy";
+import Sitemap from "./Sitemap";
 
 function App() {
   return (
@@ -52,6 +56,10 @@ function App() {
           <Route path="/blockchain" component={BlockChain} />
           <Route path="/mlai" component={MLAi} />
           <Route path="/api" component={AllApi} />
+          <Route path="/termsAndCon" component={TermsAndCon} />
+          <Route path="/disclaimer" component={Disclaimer} />
+          <Route path="/privacypolicy" component={PrivacyPolicy} />
+          <Route path="/sitemap" component={Sitemap} />
           <Route component={ErrorPage} />
         </Switch>
         <div className="upArrowContainer">

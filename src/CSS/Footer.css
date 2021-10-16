@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #192a56;
+  color: white;
+  padding: 10px 0px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.second_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.second_footer a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+
+/* media Query */
+@media only screen and (max-width: 600px) {
+  .second_footer {
+    flex-direction: column;
+  }
+}

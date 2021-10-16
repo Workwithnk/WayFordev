@@ -1,0 +1,29 @@
+/* sitemap */
+.sitemap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sitemap h1 {
+  font-size: 26px;
+  margin: 11px 0px;
+  text-decoration: underline;
+  padding: 10px 0px;
+}
+.link_sitemap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.links_sitemap a {
+  font-size: 20px;
+  font-family: "Lato";
+  margin: 5px 0px;
+}
+.singleLink_Sitemap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
