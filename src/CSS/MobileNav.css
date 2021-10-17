@@ -41,15 +41,14 @@
 .togglerContainer {
   position: absolute;
   top: 52px;
-  right: 40px;
+  right: 0px;
   background-color: #f5ae14;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 130px;
-  height: 200px;
-  border-radius: 10%;
+  width: 100vw;
+  height: 93vh;
 }
 .togglerContainer li {
   margin: 4px 0px;
