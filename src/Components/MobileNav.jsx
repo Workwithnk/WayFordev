@@ -12,6 +12,12 @@ function MobileNav() {
     setHamberg(!hamberg);
   };
 
+  const handleLinkClick = () => {
+    const togglerContainer = document.querySelector(".togglerContainer");
+    togglerContainer.style.display = "none";
+    setHamberg(false);
+  };
+
   return (
     <div className="mobileNav">
       <div className="first_MBN">
@@ -34,13 +40,19 @@ function MobileNav() {
       {hamberg && (
         <ul className="togglerContainer">
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink onClick={handleLinkClick} to="/">
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/allWays">Ways</NavLink>
+            <NavLink onClick={handleLinkClick} to="/allWays">
+              Ways
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/api">API</NavLink>
+            <NavLink onClick={handleLinkClick} to="/api">
+              API
+            </NavLink>
           </li>
         </ul>
       )}
