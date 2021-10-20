@@ -1,8 +1,9 @@
 import React from "react";
+import "../CSS/CommanPrivacy.css";
 
 function Disclaimer() {
   return (
-    <div>
+    <div className="commanPrivacy">
       <h2>Disclaimers for wayfordev</h2>
 
       <p>

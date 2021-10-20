@@ -1,8 +1,9 @@
 import React from "react";
+import "../CSS/CommanPrivacy.css";
 
 function TermsAndCon() {
   return (
-    <div className="TermsAndCon ">
+    <div className="TermsAndCon  commanPrivacy">
       <h2>
         <strong>Terms and Conditions</strong>
       </h2>

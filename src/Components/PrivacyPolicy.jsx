@@ -1,8 +1,9 @@
 import React from "react";
+import "../CSS/CommanPrivacy.css";
 
 function PrivacyPolicy() {
   return (
-    <div>
+    <div className="commanPrivacy">
       <h1>Privacy Policy for Nk development</h1>
 
       <p>
