@@ -2,7 +2,7 @@ import React from "react";
 
 function TermsAndCon() {
   return (
-    <div className="TermsAndCon">
+    <div className="TermsAndCon ">
       <h2>
         <strong>Terms and Conditions</strong>
       </h2>

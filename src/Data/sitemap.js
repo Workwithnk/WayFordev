@@ -59,4 +59,52 @@ export const sitemapData = [
     url: "/game",
     urlName: "wayfordev.web.app/game",
   },
+  {
+    id: "11",
+    name: "UiUx",
+    url: "/uiux",
+    urlName: "wayfordev.web.app/uiux",
+  },
+  {
+    id: "12",
+    name: "Quality Analyst",
+    url: "/qualityanalyst",
+    urlName: "wayfordev.web.app/qualityanalyst",
+  },
+  {
+    id: "13",
+    name: "DevOps",
+    url: "/devops",
+    urlName: "wayfordev.web.app/devops",
+  },
+  {
+    id: "14",
+    name: "Cloud",
+    url: "cloud",
+    urlName: "wayfordev.web.app/cloud",
+  },
+  {
+    id: "15",
+    name: "Security Dev",
+    url: "/securitydev",
+    urlName: "wayfordev.web.app/securitydev",
+  },
+  {
+    id: "16",
+    name: "Blockchain",
+    url: "/blockchain",
+    urlName: "wayfordev.web.app/blockchain",
+  },
+  {
+    id: "17",
+    name: "ML/AI",
+    url: "/mlai",
+    urlName: "wayfordev.web.app/mlai",
+  },
+  {
+    id: "18",
+    name: "API",
+    url: "/api",
+    urlName: "wayfordev.web.app/api",
+  },
 ];

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { PUBLIC_API } from "../../URL";
 import "../../CSS/AllApi.css";
+import ApiLoader from "./ApiLoader";
 
 function AllApi() {
   let [apiData, setApiData] = useState([]);
@@ -81,21 +82,26 @@ function AllApi() {
           <option value="Weather">Weather</option>
         </select>
       </div>
-      <div className="apiAllDetails">
-        {apiData.map((data, index) => {
-          return (
-            <div className="ApiCardContainer" key={index}>
-              <h2>{data.API}</h2>
-              <p>{data.Description}</p>
-              <h5>Auth : {data.Auth ? data.Auth : "Not Required"}</h5>
-              <h5>HTTPS : {data.HTTPS ? "Enabled" : "Disabled"}</h5>
-              <h5>Cors : {data.Cors}</h5>
-              <h5>Category : {data.Category}</h5>
-              <a href={data.Link}>Link</a>
-            </div>
-          );
-        })}
-      </div>
+
+      {apiData ? (
+        <div className="apiAllDetails">
+          {apiData.map((data, index) => {
+            return (
+              <div className="ApiCardContainer" key={index}>
+                <h2>{data.API}</h2>
+                <p>{data.Description}</p>
+                <h5>Auth : {data.Auth ? data.Auth : "Not Required"}</h5>
+                <h5>HTTPS : {data.HTTPS ? "Enabled" : "Disabled"}</h5>
+                <h5>Cors : {data.Cors}</h5>
+                <h5>Category : {data.Category}</h5>
+                <a href={data.Link}>Link</a>
+              </div>
+            );
+          })}
+        </div>
+      ) : (
+        <ApiLoader />
+      )}
     </div>
   );
 }

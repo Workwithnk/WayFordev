@@ -26,4 +26,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 6px 0px;
+}
+.singleLink_Sitemap h3 {
+  margin-right: 15px;
+}
+
+/* terms and conditions */
+
+/* media queries */
+@media only screen and (max-width: 460px) {
+  .singleLink_Sitemap {
+    flex-direction: column;
+  }
+  .links_sitemap a {
+    font-size: 16px;
+  }
 }
